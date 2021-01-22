@@ -34,6 +34,12 @@ body {
     background: #037fb1;
 }
 
+.logo-side .wrapper {
+   text-align: center;
+   color: #037fb1;
+   font-weight: bold;
+}
+
 .content-side .wrapper {
     width: 100%;
     padding: 4em;
@@ -45,16 +51,20 @@ body {
 
 .navbar-nav {
     flex-direction: row;
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
     justify-content: space-evenly;
-}
-
-.navbar-nav li:hover {
     font-weight: bold;
+    font-size: 1.4em;
 }
 
 .navbar-nav a {
     color: white;
+    transition: all 0.5s;
+}
+
+.navbar-nav a:hover {
+    color: rgb(197, 191, 191);
 }
 
 .content {
