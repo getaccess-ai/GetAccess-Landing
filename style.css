@@ -26,7 +26,8 @@ body {
 
 .left {
     left: 0;
-    background: #8ebfe7;
+    background: #98cae8;
+    padding: 0.5em;
 }
 
 .right {
@@ -38,6 +39,10 @@ body {
    text-align: center;
    color: #036186;
    font-weight: bold;
+}
+
+.workflow {
+    width: 85%;
 }
 
 .content-side .wrapper {
@@ -142,15 +147,15 @@ body {
     }
 
     .slideUpBtn {
-        border: 2px solid #5851ec!important;
+        border: 2px solid #036186!important;
     }
     
     .slideUpBtn span {
-        color: #5851ec!important;
+        color: #036186!important;
     }
     
     .slideUpBtn::before {
-        background-color: #5851ec!important;
+        background-color: #036186!important;
     }
 
     .slideUpBtn:hover::after {
