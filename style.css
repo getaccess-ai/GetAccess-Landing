@@ -200,10 +200,16 @@ body {
 
     .content-side .wrapper {
         min-height: initial;
+        padding-top: 50px!important;
+        padding-bottom: 50px!important;
     }
 
     .content-side .wrapper {
         padding: 0;
+    }
+
+    .content-side .wrapper .content {
+        text-align: center!important;
     }
 
     .content {
