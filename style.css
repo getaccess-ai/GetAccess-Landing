@@ -47,7 +47,7 @@ body {
 }
 
 .wrapper > img {
-    position: absolute;
+    position: fixed;
     left: 4em;
     top: 4em;
 }
@@ -67,6 +67,12 @@ body {
     justify-content: flex-end;
     font-size: 1.2em;
     font-weight: 600;
+    position: fixed;
+}
+
+.navbar-nav.invis-place-holder {
+    position: relative;
+    visibility: hidden;
 }
 
 .navbar-nav .nav-item {
@@ -189,7 +195,7 @@ body {
     
     .left .navbar-nav {
         display: flex;
-        position: absolute;
+        position: fixed;
         right: 1em;
         top: 1em;
     }
@@ -242,6 +248,10 @@ body {
 
     .ct-btn-scroll {
         display: none;
+    }
+
+    .slideUpBtn {
+        background:  none!important;
     }
 }
 
@@ -329,6 +339,7 @@ body {
     position: relative;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(1,.15,.34,.92);
+    background:  #037fb1;
 }
 
 .slideUpBtn span {
@@ -452,6 +463,7 @@ body {
     }
 
     .wrapper > img {
+        position: absolute;
         left: 1em;
         top: 1em;
     }
